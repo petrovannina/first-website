@@ -1,0 +1,41 @@
+                                            //when the screen is sm adds margin between the rows of cards
+@media only screen and (max-width: 990px) {
+  #feature-area {
+    .container {
+      .row {
+        .col-xs-12 {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+  #testimonial-area {
+    .container {
+      .row {
+        .col-sm-6 {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+                                         //on xs screen style the menu-list in one column and set the margin-0
+@media only screen and (max-width: 725px){
+  .menu-list{
+    padding: 0!important;
+    ul{
+      flex-direction: column;
+      padding: 1rem;
+      li{
+        border-bottom: 1px solid white;
+        text-align: center;
+      }
+    }
+  }
+  .logo{
+    img{
+      margin: 0px!important;
+    }
+  }
+}

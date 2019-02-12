@@ -1,0 +1,49 @@
+#navbar-fixed-top {
+  //my background-image is not working from css so I put a style in html nav ,
+  // but i also want to set a background-color in case that the image not apeare,
+  //but i can't,for some reason the background-image is not set
+  //------------------
+  //update : i did it
+  //i want to set my background-image with linear-gradient(to top, white, bisque 100%)
+  //update: i did it :)
+  //the order matters: first color,second the image
+  background-image: linear-gradient(to top, white, bisque 10%);
+  //background: url(../img/bg-1.jpg) no-repeat center;
+                             //set the logo on flex-end with row-reverse in div
+  .logo {
+    //background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 20rem;
+    align-items: flex-end;
+    padding: 0.5rem;
+    p {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    img {
+      margin-left: 100px;
+    }
+  }
+                                      //style the menu-list on the left side of div
+  .menu-list {
+    //background-image: linear-gradient(to top, white, bisque 100%);
+    padding: 0.5rem 0 0 70px;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        background-color: purple;
+        color: white;
+        padding: 10px;
+        margin-right: 0.7rem;
+        border-radius: 0.5rem;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}

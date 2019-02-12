@@ -1,0 +1,43 @@
+                                 //adds some margin o the top of the div section
+#section2, #section3 , #section4{
+  margin-top: 5rem;
+}
+
+row{
+  margin-bottom: 2rem;
+}
+
+
+                                 //style the button from #section2 --first three cards
+.red-bt{
+  background-color: red;
+}
+
+.blue-bt{
+  background-color: blue;
+}
+
+.green-bt{
+  background-color: green;
+}
+                             //end of the #section2 button
+
+
+
+.red-bt, .blue-bt, .green-bt{
+  color: white;
+}
+
+
+#blog-area{
+  margin-top: 2rem;
+}
+
+#testimonial-area{
+  .container{
+    .row{
+      margin-bottom: 2rem;
+    }
+  }
+}
+

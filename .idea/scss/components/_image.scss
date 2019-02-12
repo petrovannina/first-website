@@ -1,0 +1,15 @@
+img{
+  box-sizing: border-box;
+}
+
+.row{
+  img{
+    width: 100%;
+  }
+}
+
+                                //sets the border of the img from the cards
+.bg-placeholder-img{
+  border-top-left-radius: 1rem!important;
+  border-top-right-radius: 1rem!important;
+}
